@@ -6,6 +6,7 @@ Project Overview:
 This project focused on developing an automated data quality workflow to assess and validate business license datasets using AWS Glue Studio. The objective was to streamline the data validation process by separating clean records from flawed ones and storing them in designated S3 locations for further use or review.
 
 Project Background:
+[https://github.com/Rizwan2319066/Data-Quality-Control-Rizwan1/commit/a5c10dede7842d5168761a9b0cf6c0879fd4e090]
 As part of a broader data analysis initiative, it became necessary to ensure the accuracy and reliability of business license records being processed from public datasets. Issues such as missing values, inconsistent formats, and inaccurate entries had been observed, which could negatively impact downstream analytics. This project introduced a structured quality check using AWS services to clean and validate the dataset efficiently.
 
 Scope:
@@ -27,6 +28,7 @@ Input Data Connection
 Connected to an S3 bucket (license-status) as the source containing raw license data.
 
 Transformation & Quality Check
+[https://github.com/Rizwan2319066/Data-Quality-Control-Rizwan1/commit/a5c10dede7842d5168761a9b0cf6c0879fd4e090]
 
 Applied transformations to check quality conditions (e.g., null checks, formatting).
 
@@ -37,6 +39,8 @@ Schema Adjustment
 Applied schema mapping to align column formats for both output streams.
 
 Final Output
+[https://github.com/Rizwan2319066/Data-Quality-Control-Rizwan1/commit/a5c10dede7842d5168761a9b0cf6c0879fd4e090]
+[https://github.com/Rizwan2319066/Data-Quality-Control-Rizwan1/commit/a5c10dede7842d5168761a9b0cf6c0879fd4e090]
 
 Wrote “passed” data to the S3 path: Quality Check/passed/
 
